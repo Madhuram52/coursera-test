@@ -1,0 +1,96 @@
+body {
+  font-size: 16px;
+  color: rgb(10, 10, 10);
+  background-color: #a8a8a8;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #09f315;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand h1 {
+  font-family: 'Arial', serif;
+  color: #f20c0c;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #e04c02;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #139bef;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -70px;
+}
+/* END HEADER */
+
+#main-content h1 {
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+}
+#content{
+  height: auto;
+  background-color: rgb(252, 9, 9);
+  margin-bottom: 50px;
+  border: 2px solid #3F0C1F;
+}
+#content h2{
+  text-align: center;
+  font-size:28px;
+  color: #222;
+  font-weight: bold;
+}
+
+/* HOME PAGE */
+
+/* END HOME PAGE */
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    background-color: #26effe;
+  }
+
+  /* End Header */
+
+}
+
+
+
